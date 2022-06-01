@@ -1,0 +1,41 @@
+.splash {
+
+  @extend .chroma;
+
+  .keyword {
+    @extend .k;
+  }
+
+  .string {
+    @extend .s;
+  }
+
+  .type {
+    @extend .nt;
+  }
+
+  .call {
+    @extend .nf;
+  }
+
+  .property {
+    @extend .nt;
+  }
+
+  .number {
+    @extend .m;
+  }
+
+  .comment {
+    @extend .c;
+  }
+
+  .dotAccess {
+    @extend .kt;
+  }
+
+  .preprocessing {
+    @extend .cp;
+  }
+
+}
